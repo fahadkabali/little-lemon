@@ -3,7 +3,7 @@ import logo from "../images/logo.png"; // Assuming that '../images/logo.png' is 
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
         <img src={logo} alt="Logo" style={{ width: '40px' }} className="rounded-pill" />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
